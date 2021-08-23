@@ -32,7 +32,7 @@
 					name="message"
 					style="resize: none; font-family: Poppins, sans-serif;"
 					id=""
-					placeholder="Content"
+					placeholder="Message"
 					cols="0"
 					rows="10"
 					class="contact__input"></textarea>
