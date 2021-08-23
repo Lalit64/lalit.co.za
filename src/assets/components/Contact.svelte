@@ -27,7 +27,15 @@
 			<form on:submit={sendEmail} class="contact__form">
 				<input type="text" placeholder="Name" name="name" class="contact__input" />
 				<input type="mail" placeholder="Email" class="contact__input" name="email" />
-				<textarea name="message" id="" cols="0" rows="10" class="contact__input" />
+				<!--prettier-ignore-->
+				<textarea
+					name="message"
+					style="resize: none; font-family: Poppins, sans-serif;"
+					id=""
+					placeholder="Content"
+					cols="0"
+					rows="10"
+					class="contact__input"></textarea>
 				<input type="submit" value="Send" class="contact__button button" />
 			</form>
 		</div>

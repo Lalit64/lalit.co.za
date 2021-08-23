@@ -4,6 +4,9 @@
 	import Skills from '../assets/components/Skills.svelte';
 	import Contact from '../assets/components/Contact.svelte';
 	import Footer from '../assets/components/Footer.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {});
 </script>
 
 <Home />

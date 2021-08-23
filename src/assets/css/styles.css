@@ -4,6 +4,7 @@
 :root{
     --header-height: 3rem;
     --font-semi: 600;
+    scrollbar-color: var(--first-color) rgba(0,0,0,0);
 }
 
 /*===== Colores =====*/
