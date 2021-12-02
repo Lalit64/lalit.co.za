@@ -1,15 +1,15 @@
 <script>
-	import Home from '../assets/components/Home.svelte';
-	import About from '../assets/components/About.svelte';
-	import Skills from '../assets/components/Skills.svelte';
-	import Contact from '../assets/components/Contact.svelte';
+	import Navbar from '$lib/Navbar/Navbar.svelte';
+	import Main from '$lib/Main/Main.svelte';
+	import Contact from '$lib/Contact/Contact.svelte';
+	import Work from '$lib/Work/Work.svelte';
+	import Footer from '$lib/Footer/Footer.svelte';
 </script>
 
-<Home />
-<About />
-<Skills />
-<Contact />
-
-<style>
-	@import '../assets/css/styles.css';
-</style>
+<Navbar />
+<div class='flex items-center justify-center flex-col'>
+	<Main />
+	<Contact />
+	<Work />
+	<Footer />
+</div>

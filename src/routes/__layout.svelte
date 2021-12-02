@@ -1,8 +1,17 @@
 <script>
-	import Nav from '../assets/components/Nav.svelte';
-	import Footer from '../assets/components/Footer.svelte';
+
 </script>
 
-<Nav />
 <slot />
-<Footer />
+
+<style>
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+
+	* {
+			font-family: Ubuntu, sans-serif;
+			font-weight: bold;
+	}
+</style>
