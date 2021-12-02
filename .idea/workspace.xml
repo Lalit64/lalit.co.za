@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Work/Work.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,9 @@
       <workItem from="1638443456642" duration="69000" />
       <workItem from="1638443860626" duration="165000" />
       <workItem from="1638444084054" duration="86000" />
-      <workItem from="1638452069362" duration="106000" />
+      <workItem from="1638452069362" duration="125000" />
+      <workItem from="1638454452404" duration="2057000" />
+      <workItem from="1638456650724" duration="925000" />
     </task>
     <servers />
   </component>
