@@ -10,7 +10,7 @@
 	</p>
 	<div class='flex space-x-4'><a
 		class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 bg-accent text-white'
-		href='/contact'>Contact Me</a><a
+		href='/#contact'>Contact Me</a><a
 		class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 active:bg-accent active:text-white'
 		href='/blog'>My
 		Blog</a>
