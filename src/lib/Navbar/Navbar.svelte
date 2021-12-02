@@ -1,5 +1,7 @@
 <div class='pt-28 font-semibold'>
-	<div class='fixed top-0 left-0 w-full bg-gradient-to-b from-white to-transparent z-10'>
+	<div class='fixed top-0 left-0 w-full bg-gradient-to-b bg-transparent
+
+	 z-10'>
 		<nav class='relative py-5 max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 font-header'
 				 aria-label='Global'>
 			<div class='space-x-4 text-sm md:text-base md:space-x-10 flex items-center w-full'><a
@@ -16,3 +18,8 @@
 	</div>
 </div>
 
+<style>
+    .fixed {
+				backdrop-filter: blur(5px);
+		}
+</style>

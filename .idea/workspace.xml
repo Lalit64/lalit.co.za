@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Work/Work.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,8 @@
       <workItem from="1638429862290" duration="1341000" />
       <workItem from="1638432322441" duration="1438000" />
       <workItem from="1638441317261" duration="2092000" />
-      <workItem from="1638443456642" duration="12000" />
+      <workItem from="1638443456642" duration="69000" />
+      <workItem from="1638443860626" duration="129000" />
     </task>
     <servers />
   </component>

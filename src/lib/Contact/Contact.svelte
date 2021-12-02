@@ -25,7 +25,7 @@
 					</clipPath>
 				</defs>
 			</svg>
-			<form class='relative p-5 mb-5 md:mb-0 self-stretch rounded bg-white lg:bg-transparent ml-auto md:w-96 space-y-4'>
+			<form class='relative p-5 mb-5 md:mb-0 self-stretch rounded-lg bg-white lg:bg-transparent ml-auto md:w-96 space-y-4'>
 				<div class='flex flex-col'><label for='email' class='label'>Your Email</label><input id='email' type='email'
 																																														 required=''
 																																														 class='bg-indigo-50 rounded border border-indigo-50 focus:border-indigo-200 transition-colors duration-150 p-2'
