@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Footer/Footer.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Main/Main.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/About.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Contact.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Footer.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Home.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Nav.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Skills.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/img/about__img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/img/home__img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Work/Work.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +57,8 @@
       <workItem from="1634030408612" duration="1661000" />
       <workItem from="1638429862290" duration="1341000" />
       <workItem from="1638432322441" duration="1438000" />
-      <workItem from="1638441317261" duration="2045000" />
+      <workItem from="1638441317261" duration="2092000" />
+      <workItem from="1638443456642" duration="12000" />
     </task>
     <servers />
   </component>
