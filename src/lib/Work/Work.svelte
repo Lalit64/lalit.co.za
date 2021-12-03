@@ -1,7 +1,6 @@
 <script>
 	import tilt from 'vanilla-tilt';
 	import { onMount } from 'svelte';
-	import { scrollRef } from 'svelte-scrolling'
 
 
 	let card;
@@ -14,7 +13,7 @@
 	})
 </script>
 
-<section use:scrollRef={'work'} id='work' class='w-full py-10'><h2
+<section id='work' class='w-full py-10'><h2
 	class='font-bold font-header text-4xl md:text-5xl text-center text-gray-900 mx-auto mb-2'>Work samples</h2>
 	<p class='text-center mx-auto text-gray-500 text-lg mb-14'>Some of the projects I worked on</p>
 	<div class='max-w-7xl px-4 mx-auto flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5 justify-between '>
