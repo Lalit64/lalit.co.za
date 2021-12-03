@@ -1,7 +1,9 @@
 <script>
 	import { scrollTo } from 'svelte-scrolling'
 
-	import { setGlobalOptions } from 'svelte-scrolling'
+	import scrolling from 'svelte-scrolling'
+
+	const { setGlobalOptions } = scrolling
 
 	setGlobalOptions({
 		duration: 1500

@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Work/Work.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/graphics/Frame.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/cdn/images/Frame.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,11 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/cdn" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +75,9 @@
       <workItem from="1638454452404" duration="2057000" />
       <workItem from="1638456650724" duration="962000" />
       <workItem from="1638513620876" duration="1316000" />
-      <workItem from="1638515066255" duration="365000" />
+      <workItem from="1638515066255" duration="395000" />
+      <workItem from="1638515928991" duration="98000" />
+      <workItem from="1638521927381" duration="25000" />
     </task>
     <servers />
   </component>
