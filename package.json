@@ -31,5 +31,7 @@
 		"typescript": "^4.0.0"
 	},
 	"type": "module",
-	"dependencies": {}
+	"dependencies": {
+		"vanilla-tilt": "^1.7.2"
+	}
 }

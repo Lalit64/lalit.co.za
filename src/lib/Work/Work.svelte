@@ -1,5 +1,15 @@
 <script>
-	import tilt from '$lib/utils/tilt.js';
+	import tilt from 'vanilla-tilt';
+	import { onMount } from 'svelte';
+
+	let card;
+
+	onMount(() => {
+		tilt.init(document.getElementById("card"), {
+			max: 5,
+			speed: 400,
+		});
+	})
 </script>
 
 <section id='work' class='w-full py-10'><h2
@@ -10,7 +20,8 @@
 				 class='bg-accent bg-opacity-20 hover:bg-opacity-40 max-w-full transition duration-300 rounded-2xl p-6 lg:p-14 pb-8 mx-auto group '
 				 style='perspective: 600px;'>
 		<div
-			use:tilt={{ scale: 1.1, speed: 300, glare: true, maxGlare: 1000 }}
+			bind:this={card}
+			id='card'
 			style='background: rgba(0, 0, 0, 0) radial-gradient(100.02% 136.97% at 0% 100%, #3D8FF6 0%, #1965c2 100%) repeat scroll 0% 0%; transform: rotateY(5deg) rotateX(0deg); perspective: 400px; transform-style: preserve-3d;'
 			class='rounded-md p-5 relative '>
 			<svg style='transform: translateZ(0px);' class='absolute md:-top-14 -top-7 -left-7 md:-left-14 w-1/3 md:w-1/2'
