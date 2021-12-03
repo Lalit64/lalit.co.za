@@ -6,10 +6,11 @@
 	class='font-bold font-header text-4xl md:text-5xl text-center text-gray-900 mx-auto mb-2'>Work samples</h2>
 	<p class='text-center mx-auto text-gray-500 text-lg mb-14'>Some of the projects I worked on</p>
 	<div class='max-w-7xl px-4 mx-auto flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5 justify-between '>
-		<a use:tilt={{ scale: 1 }} href='https://eduspace-gxp.vercel.app/' target='_blank' rel='noreferrer'
-				 class='bg-accent bg-opacity-20 hover:bg-opacity-40 max-w-full transition duration-300 rounded-2xl p-6 lg:p-14 pb-8 mx-auto group hover:scale-110 '
+		<a  href='https://eduspace-gxp.vercel.app/' target='_blank' rel='noreferrer'
+				 class='bg-accent bg-opacity-20 hover:bg-opacity-40 max-w-full transition duration-300 rounded-2xl p-6 lg:p-14 pb-8 mx-auto group '
 				 style='perspective: 600px;'>
 		<div
+			use:tilt={{ scale: 1.1, speed: 300, glare: true, maxGlare: 1000 }}
 			style='background: rgba(0, 0, 0, 0) radial-gradient(100.02% 136.97% at 0% 100%, #3D8FF6 0%, #1965c2 100%) repeat scroll 0% 0%; transform: rotateY(5deg) rotateX(0deg); perspective: 400px; transform-style: preserve-3d;'
 			class='rounded-md p-5 relative '>
 			<svg style='transform: translateZ(0px);' class='absolute md:-top-14 -top-7 -left-7 md:-left-14 w-1/3 md:w-1/2'
@@ -50,7 +51,7 @@
 				</defs>
 			</svg>
 
-			<img style='transform: translateZ(0px);' class='relative w-80'
+			<img class='relative w-80 rounded'
 					 src='https://raw.githubusercontent.com/Lalit64/EduSpaceFinal/main/img.png'
 					 alt='EduSpace Main'></div>
 		<div class='flex flex-col items-center pt-16'>

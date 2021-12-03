@@ -1,5 +1,5 @@
 function getSettings(settings = {}) {
-	return { scale: 1, max: 15, reverse: false, ...settings };
+	return { scale: 1, max: 2, reverse: false, ...settings };
 }
 
 const TRANSITION_MS = 300;
@@ -46,8 +46,8 @@ export default function tilt(node, settingsObj) {
 	}
 
 	node.addEventListener('mousemove', onMouseMove);
-	node.addEventListener('mouseleave', onMouseLeave);
-	node.addEventListener('mouseenter', onMouseEnter);
+	node.addEventListener('mouseout', onMouseLeave);
+	node.addEventListener('mouseover', onMouseEnter);
 
 	return {
 		destroy() {
