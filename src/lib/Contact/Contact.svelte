@@ -1,5 +1,6 @@
 <script>
 	import { init, sendForm } from 'emailjs-com';
+	import { scrollRef } from 'svelte-scrolling'
 
 	init('user_dYJ3Bc9nYPV7C1DVJ0sfO');
 
@@ -17,7 +18,7 @@
 </script>
 
 
-<div class='w-full relative bg-accent bg-opacity-20'>
+<div class='w-full relative bg-accent bg-opacity-20' use:scrollRef={'contact'}>
 	<div class='absolute -top-16' id='contact'></div>
 	<svg class='w-full' viewBox='0 0 1532 110' fill='none' xmlns='http://www.w3.org/2000/svg'>
 		<path d='M0 101.134C599 131.664 954 67.2855 1532 101.134V0.5H0V101.134Z' fill='#fff' stroke='#fff'></path>

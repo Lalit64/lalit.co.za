@@ -1,3 +1,13 @@
+<script>
+	import { scrollTo } from 'svelte-scrolling'
+
+	import { setGlobalOptions } from 'svelte-scrolling'
+
+	setGlobalOptions({
+		duration: 1500
+	})
+</script>
+
 <div class='pt-28 font-semibold'>
 	<div class='fixed top-0 left-0 w-full bg-gradient-to-b bg-transparent
 
@@ -12,8 +22,8 @@
 					<line x1="12" y1="19" x2="19" y2="19" />
 				</svg>
 			</a><a class='text-gray-600 hover:text-accent transition duration-300' href='/blog'>Articles</a><a
-				class='text-gray-600 hover:text-accent hidden sm:flex transition duration-300' href='/#work'>Work</a><a
-				class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 active:bg-accent active:text-white' href='/#contact'>Contact Me</a></div>
+				class='text-gray-600 hover:text-accent hidden sm:flex transition duration-300' href='' use:scrollTo={'work'} >Work</a><a
+				class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 active:bg-accent active:text-white' href='' use:scrollTo={'contact'} >Contact Me</a></div>
 		</nav>
 	</div>
 </div>
