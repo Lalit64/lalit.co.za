@@ -1,9 +1,9 @@
 <script>
-	import Navbar from '$lib/Navbar/Navbar.svelte';
-	import Main from '$lib/Main/Main.svelte';
-	import Contact from '$lib/Contact/Contact.svelte';
-	import Work from '$lib/Work/Work.svelte';
-	import Footer from '$lib/Footer/Footer.svelte';
+	import Navbar from '$lib/components/Navbar/Navbar.svelte';
+	import Main from '$lib/components/Main/Main.svelte';
+	import Contact from '$lib/components/Contact/Contact.svelte';
+	import Work from '$lib/components/Work/Work.svelte';
+	import Footer from '$lib/components/Footer/Footer.svelte';
 </script>
 
 <Navbar />

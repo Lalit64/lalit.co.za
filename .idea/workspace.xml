@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/cdn/graphics/waveTop.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vercel_build_output/functions/node/render/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vercel_build_output/functions/node/render/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Main/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Main/Main.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Work/Work.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Footer/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Main/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Work/Work.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cdn/graphics/wave.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,17 +55,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/cdn" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/routes/blog" />
+      <recent name="$PROJECT_DIR$/static/cdn/graphics/icons" />
+      <recent name="$PROJECT_DIR$/src/lib/components" />
+      <recent name="$PROJECT_DIR$/src/routes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +96,34 @@
       <workItem from="1638515066255" duration="395000" />
       <workItem from="1638515928991" duration="98000" />
       <workItem from="1638521927381" duration="200000" />
-      <workItem from="1638525692807" duration="1241000" />
+      <workItem from="1638525692807" duration="1840000" />
+      <workItem from="1638636019133" duration="754000" />
+      <workItem from="1638690880093" duration="2127000" />
+      <workItem from="1638694327397" duration="1149000" />
+      <workItem from="1638695601554" duration="835000" />
+      <workItem from="1638696636251" duration="175000" />
+      <workItem from="1638696977134" duration="1475000" />
+      <workItem from="1638702934757" duration="215000" />
+      <workItem from="1638704117744" duration="728000" />
+      <workItem from="1638705403109" duration="110000" />
+      <workItem from="1638705521689" duration="714000" />
+      <workItem from="1638706283386" duration="142000" />
+      <workItem from="1638711281948" duration="50000" />
+      <workItem from="1638711342095" duration="2181000" />
+      <workItem from="1638880217952" duration="603000" />
+      <workItem from="1638883667562" duration="866000" />
+      <workItem from="1638889345132" duration="1329000" />
+      <workItem from="1638952529358" duration="1828000" />
+      <workItem from="1638958139485" duration="3708000" />
+      <workItem from="1638964895341" duration="471000" />
+      <workItem from="1638966028393" duration="2673000" />
+      <workItem from="1638976956362" duration="1021000" />
+      <workItem from="1639038656979" duration="4897000" />
+      <workItem from="1639121231441" duration="18000" />
+      <workItem from="1639121258620" duration="183000" />
+      <workItem from="1639121656143" duration="1003000" />
+      <workItem from="1639123128685" duration="3286000" />
+      <workItem from="1639235972106" duration="1382000" />
     </task>
     <servers />
   </component>
@@ -98,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

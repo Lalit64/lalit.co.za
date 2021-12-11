@@ -19,9 +19,7 @@
 
 <div class='w-full relative bg-accent bg-opacity-20' >
 	<div class='absolute -top-16' id='contact'></div>
-	<svg class='w-full' viewBox='0 0 1532 110' fill='none' xmlns='http://www.w3.org/2000/svg'>
-		<path d='M0 101.134C599 131.664 954 67.2855 1532 101.134V0.5H0V101.134Z' fill='#fff' stroke='#fff'></path>
-	</svg>
+	<img src='/cdn/graphics/waveTop.svg' alt=''>
 	<div class='max-w-screen-lg px-5 flex flex-col md:flex-row mx-auto items-center'>
 		<div class='max-w-sm py-14 md:py-24 md:pr-5 md:mr-auto'><h2
 			class='text-5xl font-header font-bold text-accent mb-4 text-center md:text-left'>Let’s talk</h2>
@@ -57,8 +55,6 @@
 			</form>
 		</div>
 	</div>
-	<svg class='w-full' viewBox='0 0 1532 135' fill='none' xmlns='http://www.w3.org/2000/svg'>
-		<path d='M0 134.884H1532V16.175C903 38.7408 415 -29.6202 0 16.175V134.884Z' fill='#fff' stroke='#fff'></path>
-	</svg>
+	<img src='/cdn/graphics/waveBottom.svg' alt=''>
 </div>
 

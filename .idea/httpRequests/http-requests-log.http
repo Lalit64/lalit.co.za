@@ -1,0 +1,24 @@
+POST http://localhost:8080/auth/local
+Accept: application/json
+
+{
+  "username": "test@user.com",
+  "password": "test@01"
+}
+
+<> 2021-12-05T155204.405.txt
+
+###
+
+GET http://localhost:8080/api/posts
+Accept: application/json
+
+<> 2021-12-05T133632.200.json
+
+###
+
+GET http://localhost:8080/api/posts
+Accept: application/json
+
+###
+

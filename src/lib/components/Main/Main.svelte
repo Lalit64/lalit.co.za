@@ -1,5 +1,5 @@
 <div class='flex flex-col items-center container py-16 justify-center'><img
-	src='/cdn/graphics/Frame.png' alt='profile'
+	src='/cdn/images/Frame.png' alt='profile'
 	draggable='false' class='w-1/2 md:w-52 mb-8'>
 	<h1 style='color:#0C032F' class='font-header text-4xl md:text-5xl text-center font-bold mb-4 flex'>Hi, I’m <p
 		class='text-accent ml-2'>Lalit</p>,
