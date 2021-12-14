@@ -1,3 +1,6 @@
+<script>
+	import { base } from '$app/paths';
+</script>
 <div class='flex flex-col items-center container py-16 justify-center'><img
 	src='/cdn/images/Frame.png' alt='profile'
 	draggable='false' class='w-1/2 md:w-52 mb-8'>
@@ -10,9 +13,9 @@
 	</p>
 	<div class='flex space-x-4'><a
 		class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 bg-accent text-white'
-		href='/#contact'>Contact Me</a><a
+		href='{base}/#contact'>Contact Me</a><a
 		class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 active:bg-accent active:text-white'
-		href='/blog'>My
+		href='{base}/blog'>My
 		Blog</a>
 	</div>
 </div>

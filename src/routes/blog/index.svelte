@@ -1,6 +1,7 @@
 <script lang='ts'>
 	import type { Post } from '$lib/types';
 	import Navbar from '$lib/components/Navbar/Navbar.svelte';
+	import { base } from '$app/paths';
 	import axios from 'axios';
 	import { onMount } from 'svelte';
 	import userStore from '$lib/user';
@@ -32,9 +33,9 @@
 				<div class='flex'>
 					<input type='search' placeholder='Search articles' class='bg-accent bg-opacity-20 pl-10 w-full placeholder-accent placeholder-opacity-30 rounded focus:ring-2 focus:outline-none transition duration-150 p-2' bind:value={search}>
 					{#if !$userStore}
-						<a href="/blog/login" target='_blank' class="border-2 border-accent rounded py-2 transition duration-300 text-sm md:text-base px-4 ml-2 hover:bg-accent hover:text-white active:bg-accent-offset active:border-accent-offset active:text-white">Login</a>
+						<a href="{base}/blog/login" target='_blank' class="border-2 border-accent rounded py-2 transition duration-300 text-sm md:text-base px-4 ml-2 hover:bg-accent hover:text-white active:bg-accent-offset active:border-accent-offset active:text-white">Login</a>
 					{:else}
-						<a href="/blog/new" target='_blank' class="border-2 border-accent rounded py-2 transition duration-300 text-sm md:text-base px-4 ml-2 hover:bg-accent hover:text-white active:bg-accent-offset active:border-accent-offset active:text-white">New</a>
+						<a href="{base}/blog/new" target='_blank' class="border-2 border-accent rounded py-2 transition duration-300 text-sm md:text-base px-4 ml-2 hover:bg-accent hover:text-white active:bg-accent-offset active:border-accent-offset active:text-white">New</a>
 					{/if}
 				</div>
 
@@ -51,7 +52,7 @@
 		<div class='flex flex-col w-full space-y-8 mt-10'>
 			{#each posts as post}
 				{#if post.attributes.title.toLowerCase().includes(search.toLowerCase())}
-					<a class='w-full flex flex-col group rounded p-3 bg-transparent' href='/blog/{post.id}' target='_blank' transition:slide ><h2
+					<a class='w-full flex flex-col group rounded p-3 bg-transparent' href='{base}/blog/{post.id}' target='_blank' transition:slide ><h2
 						class='text-gray-900 font-header font-bold text-2xl mb-2'>{post.attributes.title}</h2>
 						<p class='text-gray-500'>{post.attributes.description}</p>
 						<div class='text-accent mt-1 flex items-center'>Read

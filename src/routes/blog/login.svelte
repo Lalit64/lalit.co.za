@@ -3,6 +3,7 @@
 	import user from '$lib/user';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
+	import { base } from '$app/paths';
 
 	let email = '';
 	let password = '';
@@ -43,7 +44,7 @@
 			</h2>
 			<p class="mt-2 text-center text-sm text-gray-600">
 				For access to create posts on
-				<a href="/blog" class="font-medium text-accent">
+				<a href="{base}/blog" class="font-medium text-accent">
 					my blog!
 				</a>
 			</p>

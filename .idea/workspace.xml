@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/cdn/graphics/waveTop.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vercel_build_output/functions/node/render/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vercel_build_output/functions/node/render/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Footer/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Main/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Work/Work.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Footer/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Work/Work.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/cdn/graphics/wave.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/login.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/login.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/new.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/new.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CNAME" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +123,10 @@
       <workItem from="1639121258620" duration="183000" />
       <workItem from="1639121656143" duration="1003000" />
       <workItem from="1639123128685" duration="3286000" />
-      <workItem from="1639235972106" duration="1382000" />
+      <workItem from="1639235972106" duration="3555000" />
+      <workItem from="1639379793451" duration="866000" />
+      <workItem from="1639467732100" duration="618000" />
+      <workItem from="1639468424171" duration="115000" />
     </task>
     <servers />
   </component>

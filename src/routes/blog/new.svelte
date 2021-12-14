@@ -146,8 +146,9 @@
 					</div>
 					{#if isEditorShown}
 						<textarea id='password' name='password' autocomplete='current-password' required
-											class=' transition relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-lg focus:outline-none focus:ring-2 focus:ring-accent sm:text-sm h-64 shadow'
-											placeholder='Post Content' bind:value={content} ></textarea>
+											class=' transition resize-auto relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-lg focus:outline-none focus:ring-2 focus:ring-accent sm:text-sm h-64 shadow'
+											placeholder='Post Content' bi
+											nd:value={content} ></textarea>
 					{/if}
 				</div>
 			</div>

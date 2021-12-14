@@ -15,8 +15,7 @@
 				 class='text-gray-400 hover:text-gray-500 w-6 h-6 transition'><span class='sr-only'>GitHub</span>
 					<GitHub />
 			</a>
-			<a href='https://eduspace-gxp.vercel.app/' target='_blank' rel='noreferrer'
-				 class='text-gray-400 hover:text-gray-500 w-6 h-6 transition'>
+			<a href='https://eduspace-gxp.vercel.app/' rel='external' target='_blank' class='text-gray-400 hover:text-gray-500 w-6 h-6 transition' >
 					<span class='sr-only'>EduSpace</span>
 					<Website />
 			</a>
