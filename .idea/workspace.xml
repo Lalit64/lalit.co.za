@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Footer/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Work/Work.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Work/Work.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/login.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/login.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/new.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/new.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug].svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/__layout.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/login.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/new.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,17 +57,20 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/routes/blog" />
       <recent name="$PROJECT_DIR$/static/cdn/graphics/icons" />
       <recent name="$PROJECT_DIR$/src/lib/components" />
-      <recent name="$PROJECT_DIR$/src/routes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,7 +126,18 @@
       <workItem from="1639235972106" duration="3555000" />
       <workItem from="1639379793451" duration="866000" />
       <workItem from="1639467732100" duration="618000" />
-      <workItem from="1639468424171" duration="115000" />
+      <workItem from="1639468424171" duration="1406000" />
+      <workItem from="1639480016151" duration="3117000" />
+      <workItem from="1639561764825" duration="61000" />
+      <workItem from="1639561847702" duration="246000" />
+      <workItem from="1639562194914" duration="408000" />
+      <workItem from="1639562656963" duration="834000" />
+      <workItem from="1639564030261" duration="2235000" />
+      <workItem from="1639569625300" duration="2916000" />
+      <workItem from="1639574380806" duration="498000" />
+      <workItem from="1639580130479" duration="306000" />
+      <workItem from="1639581041024" duration="937000" />
+      <workItem from="1639985237926" duration="43000" />
     </task>
     <servers />
   </component>

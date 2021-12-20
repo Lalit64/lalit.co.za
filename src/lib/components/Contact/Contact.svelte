@@ -35,13 +35,13 @@
 				<div class='flex flex-col'>
 					<label for='email' class='label'>Your Email</label>
 					<input id='email' type='email' required
-								 class='bg-indigo-50 rounded border border-indigo-50 focus:border-indigo-200 transition-colors duration-150 p-2 focus:outline-none'
+								 class='bg-accent bg-opacity-10 rounded border-0 focus:ring-2 transition duration-150 p-2 focus:outline-none'
 								 name='email'>
 				</div>
 				<div class='flex flex-col'>
 					<label class='label'>Your Message</label>
 					<textarea required name='message'
-										class='resize-none h-24 bg-indigo-50 rounded border border-indigo-50 focus:border-indigo-200 transition-colors duration-150 p-2 ring-accent focus:ring-2 focus:outline-none'></textarea>
+										class='resize-none h-24 bg-accent bg-opacity-10 rounded border-0 focus:ring-2 transition duration-150 p-2 ring-accent focus:ring-2 focus:outline-none'></textarea>
 				</div>
 				<button type='submit'
 								class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 active:bg-accent active:text-white'>

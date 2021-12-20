@@ -1,4 +1,3 @@
-<!-- src/routes/blog/[slug].svelte -->
 <script lang="ts" context="module">
 	import type { Load } from '@sveltejs/kit';
 
@@ -7,7 +6,7 @@
 		const { slug } = params;
 
 		// Now, we'll fetch the blog post from Strapi
-		const res = await fetch('/posts' + slug);
+		const res = await fetch('http://localhost:1337/posts/' + slug);
 
 		// A 404 status means "NOT FOUND"
 		if (res.status === 404) {
@@ -29,12 +28,20 @@
 	export let post: Post;
 	let content = post.content;
 
+	onMount(async () => {
+		// Install the marked package first!
+		// Run this command: npm i marked
 
+		// We're using this style of importing because "marked" uses require, which won't work when we import it with SvelteKit.
+		// Check the "How do I use a client-side only library" in the FAQ: https://kit.svelte.dev/faq
+		const marked = (await import('marked')).default;
+		content = marked(post.content);
+	});
 </script>
 
 <h1 class="text-center text-4xl mt-4">{post.title}</h1>
 <p class="text-center mt-2">By: {post.author.username}</p>
 
 <div class="border border-gray-500 my-4 mx-8 p-6 rounded">
-
+	{@html content}
 </div>

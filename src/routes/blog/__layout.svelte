@@ -1,5 +1,5 @@
 <script lang="ts">
-	import userStore from '$lib/user';
+	import userStore from '$lib/userStore';
 	import type { User } from '$lib/types';
 	import { onMount } from 'svelte';
 
@@ -20,7 +20,6 @@
 		loading = false;
 		if (res.ok) {
 			$userStore = user;
-			console.log($userStore)
 		}
 	});
 </script>

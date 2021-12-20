@@ -1,19 +1,13 @@
-<script lang='ts'>
+<script lang="ts">
 	import type { User } from '$lib/types';
-	import user from '$lib/user';
-	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
-	import { base } from '$app/paths';
+	import user from '$lib/userStore';
 
 	let email = '';
 	let password = '';
 
-	// onMount(() => {
-	// 	if ($user) goto('/blog');
-	// });
-
 	async function login() {
-		const res = await fetch('http://localhost:1337/api/auth/local', {
+		const res = await fetch('http://localhost:1337/auth/local', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
 			body: JSON.stringify({ identifier: email, password })
@@ -23,7 +17,7 @@
 			localStorage.setItem("token", data.jwt)
 			if (data) {
 				$user = data.user;
-				location.replace('/blog');
+				goto('/');
 			}
 		} else {
 			const data: { message: { messages: { message: string }[] }[] } = await res.json();
@@ -32,56 +26,42 @@
 			}
 		}
 	}
-
-
 </script>
 
-<div class='min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8'>
-	<div class='max-w-md w-full space-y-8'>
-		<div>
-			<h2 class='mt-6 text-center text-3xl font-extrabold text-gray-900'>
-				Sign in to your account
-			</h2>
-			<p class="mt-2 text-center text-sm text-gray-600">
-				For access to create posts on
-				<a href="{base}/blog" class="font-medium text-accent">
-					my blog!
-				</a>
-			</p>
+<div class='w-screen h-screen flex justify-center items-center bg-gray-100'>
+	<form on:submit|preventDefault={login} class='p-10 bg-white rounded-md flex justify-center items-center flex-col shadow-md'>
+		<svg xmlns="http://www.w3.org/2000/svg" class="stroke-accent" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+			<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+			<path d="M5 7l5 5l-5 5" />
+			<line x1="12" y1="19" x2="19" y2="19" />
+		</svg>
+		<p class='mb-5 text-3xl text-gray-600'>Login</p>
+		<div class='flex flex-col w-96'>
+			<div class='relative flex-grow my-2'>
+				<input type='email' placeholder='Email'
+							 class='bg-accent bg-opacity-20 pl-10 w-full placeholder-accent placeholder-opacity-30 rounded border-0 focus:ring-2 transition duration-150 p-2'>
+				<div class='absolute top-0 pointer-events-none left-0 h-full px-3 flex items-center align-center'>
+					<svg xmlns="http://www.w3.org/2000/svg" class="stroke-accent stroke-2" width='22' height='22' viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<rect x="3" y="5" width="18" height="14" rx="2" />
+						<polyline points="3 7 12 13 21 7" />
+					</svg>
+				</div>
+			</div>
+			<div class='relative flex-grow my-2'>
+				<input type='password' placeholder='Password'
+							 class='bg-accent bg-opacity-20 pl-10 w-full placeholder-accent placeholder-opacity-30 rounded border-0 focus:ring-2 transition duration-150 p-2'>
+				<div class='absolute top-0 pointer-events-none left-0 h-full px-3 flex items-center align-center'>
+					<svg xmlns="http://www.w3.org/2000/svg" class="stroke-accent stroke-2" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<rect x="5" y="11" width="14" height="10" rx="2" />
+						<circle cx="12" cy="16" r="1" />
+						<path d="M8 11v-4a4 4 0 0 1 8 0v4" />
+					</svg>
+				</div>
+			</div>
+			<button class='bg-accent hover:bg-accent-offset transition text-white font-bold p-2 my-2 rounded w-full' id='login'
+							type='submit'><span>Login</span></button>
 		</div>
-		<form class='mt-8 space-y-6' on:submit|preventDefault={login}>
-			<input type='hidden' name='remember' value='true'>
-			<div class='rounded-md shadow-sm -space-y-px'>
-				<div>
-					<label for='email-address' class='sr-only'>Email address</label>
-					<input id='email-address' name='email' type='email' autocomplete='email' required
-								 class='appearance-none rounded-none transition relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-2 focus:ring-accent focus:z-10 sm:text-sm'
-								 placeholder='Email address' bind:value={email}>
-				</div>
-				<div>
-					<label for='password' class='sr-only'>Password</label>
-					<input id='password' name='password' type='password' autocomplete='current-password' required
-								 class='appearance-none transition rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-2 focus:ring-accent focus:z-10 sm:text-sm'
-								 placeholder='Password' bind:value={password}>
-				</div>
-			</div>
-
-			<div>
-				<button type='submit'
-								class='group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-accent hover:bg-accent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent'>
-          <span class='absolute left-0 inset-y-0 flex items-center pl-3'>
-            <!-- Heroicon name: solid/lock-closed -->
-            <svg class='h-5 w-5 text-accent group-hover:text-accent' xmlns='http://www.w3.org/2000/svg'
-								 viewBox='0 0 20 20' fill='currentColor' aria-hidden='true'>
-              <path fill-rule='evenodd'
-										d='M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z'
-										clip-rule='evenodd' />
-            </svg>
-          </span>
-					Sign in
-				</button>
-			</div>
-		</form>
-	</div>
+	</form>
 </div>
-

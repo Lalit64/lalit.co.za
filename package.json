@@ -12,6 +12,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
+		"@types/marked": "^4.0.1",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
 		"autoprefixer": "^10.3.7",
@@ -36,7 +37,9 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^1.0.0-next.32",
+		"@tailwindcss/forms": "^0.4.0",
 		"axios": "^0.24.0",
+		"marked": "^2.1.1",
 		"svelte-scrollto": "^0.2.0",
 		"vanilla-tilt": "^1.7.2"
 	}
