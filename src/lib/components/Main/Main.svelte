@@ -12,9 +12,9 @@
 		project, <a href='https://eduspace-gxp.vercel.app' target='_blank'><strong>EduSpace</strong></a>
 	</p>
 	<div class='flex space-x-4'><a
-		class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 bg-accent text-white'
+		class='border-2 border-accent rounded py-2 active:scale-90 transition duration-300 text-sm md:text-base px-4 bg-accent text-white'
 		href='{base}/#contact'>Contact Me</a><a
-		class='border-2 border-accent rounded py-2 hover:scale-110 transition duration-300 text-sm md:text-base px-4 active:bg-accent active:text-white'
+		class='border-2 border-accent rounded py-2 active:scale-90 transition duration-300 text-sm md:text-base px-4 hover:bg-accent hover:text-white'
 		href='{base}/blog'>My
 		Blog</a>
 	</div>

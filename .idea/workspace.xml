@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BookmarksViewState">
     <option name="groupLineBookmarks" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/config/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/config/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/config/database.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/config/middlewares.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/config/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/public/uploads/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/admin/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/admin/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/content-types/post/schema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/controllers/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/routes/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/services/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/extensions/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-backend/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug].svelte" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/blog/__layout.svelte" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/blog/index.svelte" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/blog/login.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/new.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/posts.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/posts.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +71,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/opt/homebrew/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/lalit/Developer/lalit.co.za/node_modules/typescript/lib&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lib" />
@@ -72,6 +94,23 @@
       <recent name="$PROJECT_DIR$/static/cdn/graphics/icons" />
       <recent name="$PROJECT_DIR$/src/lib/components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -138,6 +177,9 @@
       <workItem from="1639580130479" duration="306000" />
       <workItem from="1639581041024" duration="937000" />
       <workItem from="1639985237926" duration="43000" />
+      <workItem from="1645547260149" duration="1072000" />
+      <workItem from="1645548771436" duration="1099000" />
+      <workItem from="1645550402121" duration="892000" />
     </task>
     <servers />
   </component>
