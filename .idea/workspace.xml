@@ -9,40 +9,11 @@
   <component name="ChangeListManager">
     <list default="true" id="37f009d1-a141-4b19-b173-dc03c15bfb06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/config/admin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/config/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/config/database.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/config/middlewares.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/config/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/public/uploads/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/admin/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/admin/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/content-types/post/schema.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/controllers/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/routes/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/api/post/services/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/extensions/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-backend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Contact/Contact.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Main/Main.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Navbar/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug].svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/__layout.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/index.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/login.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/posts.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/posts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,28 +42,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/opt/homebrew/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/lalit/Developer/lalit.co.za/node_modules/typescript/lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/lalit/Developer/lalit.co.za/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/opt/homebrew/bin/node",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/Users/lalit/Developer/lalit.co.za/node_modules/typescript/lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/routes/blog" />
       <recent name="$PROJECT_DIR$/static/cdn/graphics/icons" />
-      <recent name="$PROJECT_DIR$/src/lib/components" />
     </key>
   </component>
   <component name="RunManager">
@@ -179,7 +154,10 @@
       <workItem from="1639985237926" duration="43000" />
       <workItem from="1645547260149" duration="1072000" />
       <workItem from="1645548771436" duration="1099000" />
-      <workItem from="1645550402121" duration="892000" />
+      <workItem from="1645550402121" duration="2152000" />
+      <workItem from="1645595234818" duration="473000" />
+      <workItem from="1645596176831" duration="36000" />
+      <workItem from="1645614413492" duration="1939000" />
     </task>
     <servers />
   </component>

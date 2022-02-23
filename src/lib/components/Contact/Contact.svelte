@@ -50,7 +50,7 @@
 				<div class='flex flex-col'>
 					<label for='email' class='label'>Your Email</label>
 					<input id='email' type='email' required
-								 class='bg-accent bg-opacity-10 rounded border-0 focus:ring-2 transition duration-150 p-2 focus:outline-none'
+								 class='bg-accent bg-opacity-10 rounded border-0 focus:ring-2 ring-accent transition duration-150 p-2 focus:outline-none'
 								 name='email'>
 				</div>
 				<div class='flex flex-col'>

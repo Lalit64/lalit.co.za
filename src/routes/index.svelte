@@ -7,7 +7,7 @@
 </script>
 
 <Navbar />
-<div class='flex items-center justify-center flex-col'>
+<div class='flex items-center justify-center flex-col z-50 w-full'>
 	<Main />
 	<Contact />
 	<Work />
