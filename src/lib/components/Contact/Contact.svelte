@@ -17,7 +17,7 @@
 </script>
 
 
-<div class='w-full relative bg-accent bg-opacity-20'>
+<div class='w-full relative bg-accent bg-[#DFE9FC] '>
 	<div class='absolute -top-16' id='contact'></div>
 	<img src='/cdn/graphics/waveTop.svg' alt=''>
 	<div class='max-w-screen-lg px-5 flex flex-col md:flex-row mx-auto items-center'>
