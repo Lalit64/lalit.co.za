@@ -13,3 +13,9 @@
 	<Work />
 	<Footer />
 </div>
+
+<style global>
+	img, h1, p, button, form, a {
+			z-index: 50 !important;
+	}
+</style>
